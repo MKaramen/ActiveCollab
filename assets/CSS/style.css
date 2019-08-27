@@ -63,7 +63,7 @@ nav {
 
 .nav_blueButton {
   color: white;
-  background-color: blue;
+  background-color: #5D27FF;
   border-radius: 5px 0px 0px 5px;
 }
 
@@ -88,6 +88,12 @@ h1 {
   grid-row: 3;
   display: grid;
   grid-template-columns: repeat(4, 25%);
+  color:white;
+}
+
+.capabilities_title{
+  font-weight: 900;
+  font-size: 120%;
 }
 
 .capabilities_ulLeft {
