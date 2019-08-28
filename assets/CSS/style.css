@@ -111,6 +111,7 @@ h1 {
 
 .capabilities_ulLeft > li {
   list-style-type: none;
+  text-align: center;
 }
 
 .capabilites_images {
