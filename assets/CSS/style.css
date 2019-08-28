@@ -378,20 +378,71 @@ form > input {
   margin-bottom: 150px;
 }
 
-/* Row 9 */
+/* Row 9  GENERAL*/
 footer {
   grid-row: 9;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  display: grid;
+  grid-template-rows: auto auto;
   padding-top: 32px;
 }
 
+.footer_nav {
+  grid-row: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 64px;
+}
+.footer_nav > ul {
+  list-style-type: none;
+}
 
-/* Row 1 */
-/* Row 1 */
-/* Row 1 */
-/* Row 1 */
-/* Row 1 */
-/* Row 1 */
+.footer_title {
+  font-weight: 900;
+  margin-bottom: 16px;
+}
+
+/* Row 9.1 LEFT */
+.footer_left > li {
+  margin-top: 8px;
+}
+/* Row 9.2 CENTER LEFT */
+.footer_centerLeft > li {
+  margin-top: 8px;
+}
+
+/* Row 9.3 CENTER */
+.footer_center > li {
+  margin-top: 8px;
+}
+
+/* Row 9.4 CENTER RIGHT */
+.footer_centerRight > li {
+  margin-top: 8px;
+}
+/* Row 9.5 Right*/
+.footer_right > li {
+  margin-top: 8px;
+}
+/* Row 10 SOCIAL  */
+.social {
+  grid-row: 2;
+}
+
+.social_ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 32px;
+  color:#5D27FF;
+}
+
+.social_ul > li {
+  margin-left: 8px;
+  list-style-type: none;
+}
+
+footer p:last-child{
+  text-align: center;
+}
 /* Row 1 */
