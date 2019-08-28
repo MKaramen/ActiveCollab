@@ -1,6 +1,7 @@
 body{
   display: grid;
   font-size: 16px;
+  color: #3B3B3B;
 }
 
 * {
@@ -12,7 +13,6 @@ nav {
   grid-row: 1;
   display: grid;
   grid-template-columns: 1fr 1fr 18%;
-  background: grey;
 }
 
 .nav_ulLeft{
@@ -58,7 +58,6 @@ nav {
 .nav_ulRight > li {
   list-style-type: none;
   padding: 5px 20px 5px 20px;
-  border: solid black 1px;
 }
 
 .nav_blueButton {
@@ -81,6 +80,7 @@ header {
 h1 {
   text-align: center;
   padding: 30px 0px 30px 0px;
+  font-weight: 100;
 }
 
 /* Row 3.1 LEFT*/
@@ -88,12 +88,14 @@ h1 {
   grid-row: 3;
   display: grid;
   grid-template-columns: repeat(4, 25%);
-  color:white;
+  color:#3B3B3B;
 }
 
 .capabilities_title{
   font-weight: 900;
   font-size: 120%;
+  padding-bottom: 8px;
+  padding-top: 4px;
 }
 
 .capabilities_ulLeft {
@@ -102,7 +104,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: grey;
+  background-color: #E9EDF2;
   padding:30px 0px 30px 100px;
 }
 
@@ -110,7 +112,7 @@ h1 {
   list-style-type: none;
 }
 
-.capabilites_document {
+.capabilites_images {
   width:100px;
 }
 
@@ -121,7 +123,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: grey;
+  background-color: #E9EDF2;
   padding:30px 0px 30px 100px;
 }
 
@@ -135,7 +137,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: grey;
+  background-color: #E9EDF2;
   padding:30px 0px 30px 100px;
 }
 
@@ -149,7 +151,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: grey;
+  background-color: #E9EDF2;
   padding:30px 0px 30px 100px;
 }
 
@@ -157,7 +159,10 @@ h1 {
   list-style-type: none;
   text-align: center;
 }
-/* Row 1 */
+
+/* Row 4 */
+
+
 /* Row 1 */
 /* Row 1 */
 /* Row 1 */
