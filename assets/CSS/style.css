@@ -333,17 +333,21 @@ form {
   padding-top: 16px;
 }
 
+form > p {
+  margin-top: 32px;
+}
+
 form > input {
   width: 400px;
   padding: 16px 32px 16px 10px;
   border-radius: 5px;
-  margin-top: 32px;
   border: none;
   border-bottom: solid 1px #3B3B3B;
 }
 
 .submit {
   background-color: #5D27FF;
+  margin-top: 32px;
   margin-bottom: 64px;
   padding-right: 10px;
   width: 200px;
@@ -383,7 +387,7 @@ footer {
   grid-row: 9;
   display: grid;
   grid-template-rows: auto auto;
-  padding-top: 32px;
+  margin-top: 32px;
 }
 
 .footer_nav {
