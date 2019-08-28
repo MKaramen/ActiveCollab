@@ -2,6 +2,7 @@ body{
   display: grid;
   font-size: 16px;
   color: #3B3B3B;
+  font-family: 'Open Sans', sans-serif;
 }
 
 * {
@@ -195,18 +196,89 @@ h1 {
 .sellOut_mention {
   padding-top: 8px;
   padding-bottom: 32px;
+  font-size: 60%;
 }
 
 
 
 .sellOut_img {
   width:600px;
-  padding-bottom: 128px;
+  padding-bottom: 64px;
 }
 
-/* Row 1 */
-/* Row 1 */
-/* Row 1 */
+/* Row 5 */
+
+.cloud {
+  grid-row: 5;
+  font-size: 120%;
+  display: grid;
+  grid-template-columns: 20% 1fr 20%;
+}
+
+h2 {
+  grid-column: 2;
+  text-align: center;
+  padding-bottom: 16px;
+}
+
+.cloud > p {
+  grid-column: 2;
+  text-align: center;
+  padding-bottom: 32px;
+}
+
+/* Row  Plans + LEFT 6.1*/
+.plans {
+  grid-row: 6;
+  display: grid;
+  grid-template-columns: 20% 30% 30% 20%;
+}
+
+.plans_left {
+  grid-column: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.plans_left > img{
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.plans_button {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  background-color: #5D27FF;
+  padding: 8px 16px 8px 16px;
+  border-radius: 4px;
+  color: white;
+}
+
+/* Row 6.2 RIGHT */
+
+.plans_right{
+  grid-column: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-left: solid 1px;
+}
+
+.plans_right > img {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.plans_price {
+  font-style: italic;
+  padding-bottom: 64px;
+}
+
+
+
 /* Row 1 */
 /* Row 1 */
 /* Row 1 */
