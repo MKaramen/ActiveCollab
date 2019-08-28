@@ -68,7 +68,7 @@ nav {
 
 .nav_greyButton {
   color: black;
-  background: white;
+  background: #D0D0D0;
   border-radius: 0px 5px 5px 0px;
 }
 
@@ -79,7 +79,7 @@ header {
 
 h1 {
   text-align: center;
-  padding: 30px 0px 30px 0px;
+  padding: 32px 0px 32px 0px;
   font-weight: 100;
 }
 
@@ -124,7 +124,7 @@ h1 {
   justify-content: center;
   align-items: center;
   background-color: #E9EDF2;
-  padding:30px 0px 30px 100px;
+  padding:30px 0px 30px 0px;
 }
 
 .capabilities_ulLeftCenter > li {
@@ -138,7 +138,7 @@ h1 {
   justify-content: center;
   align-items: center;
   background-color: #E9EDF2;
-  padding:30px 0px 30px 100px;
+  padding:30px 0px 30px 0px;
 }
 
 .capabilities_ulRightCenter > li {
@@ -152,7 +152,7 @@ h1 {
   justify-content: center;
   align-items: center;
   background-color: #E9EDF2;
-  padding:30px 0px 30px 100px;
+  padding:30px 100px 30px 0px;
 }
 
 .capabilities_ulRight > li {
@@ -161,7 +161,48 @@ h1 {
 }
 
 /* Row 4 */
+.sellOut {
+  grid-row: 4;
+  display: grid;
+  grid-template-columns: 20% 1fr 20%;
+  font-size: 130%;
+  text-align: center;
+}
 
+.sellOut > p {
+  grid-column: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sellOut p:first-child {
+  padding: 32px 0px 32px 0px;
+  text-align: center;
+}
+
+.sellOut_button {
+  background-color: #5D27FF;
+  color: white;
+  width: 200px;
+  display: block;
+  margin: auto;
+  padding: 8px 16px 8px 16px;
+  border-radius: 4px;
+}
+
+.sellOut_mention {
+  padding-top: 8px;
+  padding-bottom: 32px;
+}
+
+
+
+.sellOut_img {
+  width:600px;
+  padding-bottom: 128px;
+}
 
 /* Row 1 */
 /* Row 1 */
